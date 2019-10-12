@@ -54,7 +54,7 @@ void message(int& choice) {
 	cin >> choice;
 
 	// Input Validator
-	while (0 > choice || choice > 5) {
+	while (0 > choice || choice > 4) {
 		error();
 		cin >> choice;
 	}
@@ -71,7 +71,7 @@ void postmessage(int& choice, int& a, int& b, int& c) {
 	cin >> choice;
 
 	// Input Validator
-	while (0 > choice || choice > 5) {
+	while (0 > choice || choice > 4) {
 		error();
 		cin >> choice;
 	}
